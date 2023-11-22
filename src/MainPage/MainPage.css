@@ -1,0 +1,44 @@
+.main-page {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: greenyellow;
+}
+
+.category {
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.books-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.books__load-more-button {
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    font-size: 20px;
+    height: 40px;
+    background-color: yellowgreen;
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: column;
+
+}

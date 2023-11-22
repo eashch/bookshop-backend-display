@@ -1,0 +1,31 @@
+
+.book {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.book__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.book__price {
+    font-size: 16px;
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+.book__rating {
+    font-size: 16px;
+    color: green;
+}
+
+.book__description-text {
+    font-size: 16px;
+    color: dimgray;
+}

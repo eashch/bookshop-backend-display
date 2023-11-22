@@ -1,0 +1,70 @@
+.user-page {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login-or-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    align-self: center;
+}
+
+.login-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.login-text-or {
+    margin-left: 50px;
+}
+
+.login-field {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.login-option-text {
+    align-self: center;
+}
+
+.login-button {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: yellowgreen;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-change-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 320px;
+}
+
+.user-books {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
